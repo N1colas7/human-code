@@ -1,0 +1,47 @@
+PROBLEMA: Scansionare un documento fronte-retro
+1 - Prendo la pratica
+2 - Mi dirigo verso lo Scanner
+3 - Accendo lo Scanner
+4 - Apro il vano dello scanner
+5 - Metto fronte del primo foglio della pratica nel vano dello Scanner
+6 - Chiudo il vano dello scanner
+7 - Effettuo la scansione
+    SE la scansione è andata a buon fine
+        Continuo a scansionare
+    ALTRIMENTI
+        Ripeto la scansione
+8 - Apro il vano dello scanner
+9 - Giro il foglio sul retro
+10 - Chiudo il vano dello scanner
+11 - Effettuo la scansione
+    SE la scansione è andata a buon fine
+        Continuo a scansionare
+    ALTRIMENTI
+        Ripeto la scansione
+12 - Apro il vano dello scanner
+13 - Tolgo il foglio dallo scanner
+14 - Lo rimetto insieme agli altri fogli
+15 - Controllo fogli rimanenti
+    SE ci sono fogli rimanenti
+        Seleziono un altro foglio della pratica
+        SE il foglio l'ho già scannerizzato
+            scelgo il foglio successivo
+        ALTRIMENTI
+            Apro il vano dello scanner
+            Metto fronte del foglio della pratica nel vano dello Scanner
+            Chiudo il vano dello scanner
+            Effettuo la scansione
+                SE la scansione è andata a buon fine
+                    Continuo a scansionare
+                ALTRIMENTI
+                    Ripeto la scansione
+                    Apro il vano dello scanner
+                    Giro il foglio sul retro
+                    Chiudo il vano dello scanner
+                    Effettuo la scansione
+                        SE la scansione è andata a buon fine
+                            Continuo a scansionare
+                        ALTRIMENTI
+                            Ripeto la scansione
+    ALTRIMENTI
+        Posa la pratica sul tavolo
